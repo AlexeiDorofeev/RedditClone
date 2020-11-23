@@ -20,10 +20,12 @@ const main = async () => {
     database: "lireddit2",
     username: "postgres",
     password: "123",
-    logging: true,
+    logging: false,
     synchronize: true,
     entities: [Post, User],
   });
+
+  // await Post.delete({});
 
   const app = express();
 

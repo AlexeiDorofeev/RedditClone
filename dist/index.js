@@ -33,7 +33,7 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
         database: "lireddit2",
         username: "postgres",
         password: "123",
-        logging: true,
+        logging: false,
         synchronize: true,
         entities: [Post_1.Post, User_1.User],
     });
